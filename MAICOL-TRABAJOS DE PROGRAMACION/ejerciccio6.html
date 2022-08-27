@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UF-T8">
+        <title>maicool</title>
+    </head>
+    <h1>sueldo de la persona</h1>
+    <hr>
+    <body>
+        <script> 
+        document.write("<h1>")
+    var horaTraba,preTotalHoras,valorHora,salNor,salFin;
+    var nombre;
+    nombre=prompt("ingrese el nombre de la persona");
+    alert("El nombre ingresado es "+nombre);
+    horaTraba=parseInt(prompt("ingrese el total de horas extras trabajadas"));
+    valorHora=parseInt(prompt("Ingrese el valor de las horas trabajadas "));
+    salNor=parseInt(prompt("Ingrese el salario normal sin horas extras"));
+
+    preTotalHoras=horaTraba*valorHora
+    salFin=preTotalHoras+salNor
+
+    document.write("Su sueldo total es: "+salFin+"<br>"+nombre);
+        document.write("</h1>")
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>do while 7</title>
+    </head>
+    <h2>tres notas del estudiante</h2>
+    <hr>
+    <body>
+        <script>
+            document.write("<h2>")
+            var x=0
+            var resul=1
+            var nota1,nota2,nota3,promedio=0;
+            var nombre;
+            do{
+            nombre=prompt("Ingrese el nombre");
+            nota1=parseFloat(prompt("Ingrese la nota 1"));
+            nota2=parseFloat(prompt("Ingrese la nota 2"));
+            nota3=parseFloat(prompt("Ingrese la nota 3"));
+            promedio=(nota1+nota2+nota3)/3
+            document.write("<br>"+"El promedio de "+nombre+"es:"+promedio);
+              document.write("<br><hr>");
+
+              resul=parseInt(prompt("Ingrese 1 si existen mas estudiantes, 0 si ya no hay mas"));  
+                x++
+            }while(resul!=0);
+            
+            document.write("</h2>")
+        </script>
+    </body>
+</html>

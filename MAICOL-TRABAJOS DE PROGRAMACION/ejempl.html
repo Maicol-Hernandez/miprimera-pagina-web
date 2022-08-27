@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo Promedio</title>
+    </head>
+
+    <body>
+        
+            <ul>
+            <h1>OPERACIONES MATEMATICAS</h1>
+            </ul>    
+        
+        <hr>
+        <script>
+        document.write("<h2>");
+            var res,cont=true;
+
+            var menu="MENU MATEMATICAS\n\n";
+            menu+="1. Suma\n";
+            menu+="2. Resta\n";
+            menu+="3. Multiplicación\n";
+            menu+="4. División\n";
+            menu+="5. Salir\n\n";
+            menu+="Ingrese una opción\n\n";
+
+            var cod=parseInt(prompt(menu));
+
+            if(cod!=5){
+            
+                var n1=parseInt(prompt("Ingrese el numero 1"));
+                var n2=parseInt(prompt("Ingrese el numero 2"));
+                document.write("Codigo: "+cod+" - valores: "+n1+" - "+n2+"<br>");
+                switch(cod){
+                    case 1: document.write("Suma<br>");
+                            res=n1+n2;
+                            break;
+                    case 2: document.write("Resta<br>"); 
+                            res=n1-n2;
+                            break;
+                    case 3: document.write("Multiplicación<br>"); 
+                            res=n1*n2;
+                            break;
+                    case 4: document.write("División<br>"); 
+                            if(n2!=0){
+                                res=n1/n2;
+                                cont=true;
+                            }else{
+                                document.write("No puede hacer una división por 0, valide el ingreso de datos<br>");
+                                cont=false;
+                            }                            
+                            break;
+                    default:document.write("El codigo no existe!");        
+                }
+                 if(cont!=false){
+                    document.write("El resultado es: "+res)
+                 }      
+
+            }else{
+                document.write("El sistema ha terminado");
+            }
+
+
+           
+
+            document.write("<br>");
+            document.write("Bien!");
+
+        document.write("</h2>");
+        </script>
+        
+    </body>
+    
+</html>

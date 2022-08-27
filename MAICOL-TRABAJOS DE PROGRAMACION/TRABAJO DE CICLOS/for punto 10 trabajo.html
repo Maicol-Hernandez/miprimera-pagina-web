@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>for 10</title>
+    </head>
+      <h1>Algoritmo que imprime todas las tablas de multiplicar ingresadas por el usuario.El usuario decide el punto de parada</h1>
+      <hr>
+    <body>
+       <script>
+           document.write("<h1>")
+           //var z=0,multi=0;
+         
+           //while(z<=10){
+           // multi=5*z;
+            //document.write("5 * "+z+"="+multi+"<br>");  
+            
+         //z++;
+        //}
+        var multi=0;
+        var zut=0;
+        var char;
+        zut=parseInt(prompt("Ingrese el numero de la tabla de multiplicar que deseé que se ejecute"));
+        char=parseInt(prompt("ingrese el numero de resultados que deseé que se ejecuten de acuerdo ala tabla de multiplicar seleccionada"));
+        for(var z=0; z<=char; z++){
+            multi=zut *z;
+            document.write(+zut+" * "+z+" = "+multi+"<br>")
+        }
+           document.write("</h1;>")
+       
+        </script>
+    </body>
+ </html>

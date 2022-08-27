@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>navbar</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <div class="navbar-fixed">
+
+    <nav class="blue">
+        <div class="nav-wrepper container ">
+    
+        <a href="pagina wed.html" class="brand-logo">INTRODUCION</a>
+          <ul class="right">
+            <li><a href="tabla.html">ESTRU.SECUENCIALES</a></li>
+            <li><a href="tabla-ciclos.html">ESTRU.CICLOS</a></li>
+            <li>
+                <a href="#" class="dropdown-trigger" data-target="id_drop">
+                    ESTRU.CONDICIONALES 
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    </div>
+
+      <ul id="id_drop" class="dropdown-content">
+        <li><a href="tabla-condicionales simples.html">CONDI.SIMPLES</a></li>
+        <li class="divider"></li>
+        <li><a href="tabla-condicionales dobles.html">CONDI.DOBLES</a></li>
+        <li class="divider"></li>
+        <li><a href="tabla-condicionales multiples.html">CONDI.MULTIPLES</a></li>
+      </ul>
+
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+    </script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+
+    </script>
+
+    
+</body>
+</html>

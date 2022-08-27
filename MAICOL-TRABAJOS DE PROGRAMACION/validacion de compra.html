@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>maicool</title>
+    </head>
+    <h1>numeros reales</h1>
+    <hr>
+    <body>
+        <script>
+            document.write("<h1>")
+          var cuenta,cantidad,precio,devuelta,valorPagado;
+          precio=parseFloat(prompt("Ingrese el precio del articulo"));
+          cantidad=parseFloat(prompt("Ingrese la catidad del producto a comprar"));
+          cuenta=cantidad*precio
+             devuelta=valorPagado-cuenta
+             valorPagado=alert("Usted debe pagar un total de "+cuenta);
+          valorPagado=parseFloat(prompt("Ingrese el valor pagado por el cliente"));
+          
+          if(cuenta<=valorPagado){
+              document.write("Si le alcanza el dinero");
+          }else{
+              document.write("Le hace falta dinero para pagar la cuenta");
+          }
+           
+            document.write("</h1>")
+        </script>
+    </body>
+</html>

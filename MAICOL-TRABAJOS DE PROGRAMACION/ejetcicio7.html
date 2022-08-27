@@ -1,0 +1,25 @@
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <title>maicool</title>    
+      <head>
+        <h1>medicamentos</h1>
+        <hr>
+        <body>
+           <script>
+            document.write("<h1>")
+               var cosHospi,diasHospi,costoDias,costoTrata,costoMedi,pagarTotal;
+               cosHospi=parseInt(prompt("Ingrese valor de un dia de hospitaliazacion"));
+               diasHospi=parseInt(prompt("Ingrese dias de hospitalizacion"));
+               costoTrata=parseInt(prompt("Ingrese costo de tratamiento"));
+               costoMedi=parseInt(prompt("Ingrese costo de medicamentos"));
+
+               costoDias=cosHospi*diasHospi;
+               pagarTotal=costoDias+costoTrata+costoMedi;
+
+               document.write("su costo apagar en total es: "+pagarTotal);
+              
+             document.write("</h1>")
+           </script>
+        </body>
+</html>    

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>maicool</title>
+    </head>
+    <body>
+        <h1>algoritmo para notas</h1>
+        <hr>
+      
+        <script>
+            document.write("<h2>")
+            var n1,n2,n3,promedio,estudian;
+            nombre=prompt("Ingrese el nombre del estudiante");
+            n1=parseFloat(prompt("Ingrese la nota uno"));
+            n2=parseFloat(prompt("Ingrese la nota dos"));
+            n3=parseFloat(prompt("Ingrese la nota tres"));
+            promedio=(n1+n2+n3)/3
+
+            if(promedio>3.5) {
+                estudian=("Aprobado")
+                
+                } else {
+                estudian=("Reprobado")
+
+                if(promedio>2.79) {
+                    estudian=("Reprobado, pero tiene la posibilidad de recuperar")
+                }
+            }
+            document.write("el estudiante: "+nombre)
+            document.write("<br>")
+            document.write("Su estado es: "+estudian)
+            document.write("</h2>")
+        </script>
+    </body>
+</html>

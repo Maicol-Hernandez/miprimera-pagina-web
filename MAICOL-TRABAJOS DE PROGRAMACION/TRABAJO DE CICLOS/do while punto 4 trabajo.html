@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>do while 4</title>
+    </head>
+      <h1>suma de numeros del 1 al 10</h1>
+      <hr>
+    <body>
+       <script>
+           document.write("<h1>")
+           var n=1; 
+           var sum=1;
+           var wha;
+           wha=parseInt(prompt("Ingre el valor de numeros que quiera sumar"));
+           do{
+               alert("El numero que esta sumando: "+n)
+               document.write("<br>"+"El valor de n es: "+n);
+               n++
+               if(n<=wha){
+                   sum=sum+n
+               }else{
+                document.write("<br>"+"La suma es ="+sum)
+               }
+           }while(n<=wha)
+           document.write("</h1>")
+      </script>
+    </body>
+ </html>

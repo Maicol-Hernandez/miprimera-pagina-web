@@ -1,0 +1,54 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url("img/business-2717063_1920.jpg");
+    width: 100;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background-color: #00a8cc;
+    color: #fde2e2;
+    border: 3px solid #ffeb99;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px;    
+}
+.btn-ejecutar{
+    background: #ffeb99;
+    display: block;
+    padding: 10px;
+    color: #5f6769;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-ejecutar:hover{
+    background: #a4c5c6;   
+}
+.text1{
+    color: #5f6769;
+}
+.text{
+    color: #3a3535;
+}
+.text2{
+    color: #3a3535;
+}
+.text3{
+    color: #3a3535;
+}
+.text4{
+    color: #3a3535;
+}

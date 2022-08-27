@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>for punto 5</title>
+    </head>
+    <h2>numeros impares del 1 al 20</h2>
+    <hr>
+    <body>
+        <script>
+            document.write("<h2>")
+            var cambio;
+            cambio=parseInt(prompt("Ingrese el valor que deseé que se imprima en pantalla"));
+            for(var n=1; n<=cambio; n++){
+                if(n%2!=0){
+                    alert("El numero que se esta ejecutando "+n);
+                    document.write("Los numeros impares son= "+n+"<br>");
+                }
+            }
+            document.write("</h2>")
+        </script>
+    </body>
+</html>
